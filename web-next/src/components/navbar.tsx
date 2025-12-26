@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full bg-blue-500 text-black font-weight:bold px-4 py-3 flex justify-between items-center shadow-md z-50">
       {/* Logo */}
       <div className="text-lg font-bold">
-        <Link href="/">
+        {/* <Link href="/">
             <Image 
             src="/globe.svg"    
             alt="MyApp Logo"
@@ -19,7 +19,7 @@ export default function Navbar() {
             height={40}
             priority
             />
-        </Link>
+        </Link> */}
         </div>
 
       <button
